@@ -1,0 +1,97 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('./Skittles-Background.jpg') center/cover fixed no-repeat; 
+    opacity: 1; /* Adjust the opacity value (0.0 to 1.0) */
+}
+
+header {
+    background-color: #ec0a0a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+
+    color: #fff;
+    font-size: 35px; /* Adjust the font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add an embossed effect */
+}
+
+.header-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-hover:hover {
+    transform: scale(1.1); /* Increase the scale on hover for a magnification effect */
+}
+
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.candy-info {
+    margin-bottom: 40px;
+}
+
+.additional-features {
+    /* Add styling for enhancements */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ec0a0a;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.contact-form form {
+    /* Add styling for the contact form */
+}
+
+
+
+.skittles-image {
+    border: 2px solid #d4ff0008; /* Add a yellow border */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 3px 3px 5px #888888; /* Add a subtle shadow */
+    
+    /* transform: translate(-50%, -50%); */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  
+}
+
+.skittles-image:hover {
+    transform: translate(-50%, -50%) scale(1.2); /* Magnify the image on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    /* Add your styles for the hover state here */
+    color: white; /* Change the text color to red as an example */
+}
+
+/* Add more styles as needed for your specific design */
